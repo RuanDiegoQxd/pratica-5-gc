@@ -12,7 +12,7 @@ pipeline {
       steps {
         echo 'vamos testar'
         sleep 15
-        build(job: 'pratica-5-gc', propagate: true)
+        build(job: 'PRATICA 5 GC', propagate: true)
       }
     }
 
