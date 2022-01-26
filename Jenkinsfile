@@ -18,7 +18,7 @@ pipeline {
 
     stage('Deploy') {
       steps {
-        VersionNumber(skipFailedBuilds: true, versionPrefix: '1.0', versionNumberString: '1,0')
+        VersionNumber(skipFailedBuilds: true, versionPrefix: '1.0', versionNumberString: '1,0', projectStartDate: '26/01/2022', overrideBuildsToday: '26', overrideBuildsThisYear: '22')
       }
     }
 
