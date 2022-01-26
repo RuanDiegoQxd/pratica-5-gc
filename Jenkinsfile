@@ -16,5 +16,11 @@ pipeline {
       }
     }
 
+    stage('Deploy') {
+      steps {
+        VersionNumber(skipFailedBuilds: true, versionPrefix: '1.0', versionNumberString: '1,0')
+      }
+    }
+
   }
 }
