@@ -4,7 +4,7 @@ pipeline {
     stage('print message') {
       steps {
         echo 'Consegui completar um passo da pratica!!!'
-        mail(subject: '[passo 2] pratica 5', body: 'consegui realizar o segundo passo da pratica', to: 'Ruandgn@alu.ufc.br.com')
+        mail(subject: 'iniciando pipeline', body: 'iniciando pipeline', to: 'Ruandgn@alu.ufc.br')
       }
     }
 
